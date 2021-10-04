@@ -4,3 +4,10 @@ body {
     margin: 0;
     flex-direction: column;
 }
+
+header,
+footer,
+.hero {
+    background-color: #1F2937;
+    color: #FFF;
+}
