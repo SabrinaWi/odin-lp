@@ -85,11 +85,36 @@ ul a {
 
 .info {
    flex: 2;
+   display: flex;
+   flex-direction: column;
+   padding: 0 150px;
+   align-items: center;
+   color: #1F2937;
+}
+
+.info-pics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    }
+
+h2 {
+    font: 36px;
+    font-weight: 700;
+    margin: 30px;
+}
+
+.info-image {
+    flex: 1;
+    max-width: 200px;
 }
 
 .info img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 8px;
 }
 
 
