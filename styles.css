@@ -51,7 +51,6 @@ ul a:visited {
 /* HERO SECTION */
 
 .hero {
-    flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +101,6 @@ ul a:visited {
    display: flex;
    flex-direction: column;
    justify-content: center;   
-   align-items: center;
    color: #1F2937;
    text-align: center;
 }
@@ -154,11 +152,38 @@ h2 {
 }
 
 .action {
-   
+    display: flex;
+    justify-content: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    align-items: center;
+    padding: 50px 0;
+    gap: 100px;
+    margin: 20px 150px;
+    border-radius: 8px;
+}
+
+.action-text {
+    flex-grow: 2;
+}
+
+.action button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 15px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    align-self: center;
+    flex-grow: 1;
+    margin: 50px;
+    
 }
 
 /* FOOTER */
 
 footer {
+    display: flex;
     height: 70px;
+    justify-content: center;
+    align-items: center;
     }
