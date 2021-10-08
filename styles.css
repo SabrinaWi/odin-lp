@@ -105,6 +105,7 @@ ul a:visited {
    display: flex;
    flex-direction: column;
    justify-content: center;   
+   flex-wrap: wrap;
    color: #1F2937;
    text-align: center;
 }
