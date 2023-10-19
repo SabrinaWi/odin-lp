@@ -6,7 +6,6 @@ body {
     justify-content: space-between;
     margin: 0px;
     text-align: center;
-    background-color: #F9FAF8;
 }
 /*//////////THIS IS THE HEADER//////////*/
 
@@ -99,14 +98,14 @@ img {
 
 .main-bottom {
     background-color: #F9FAF8;
-    padding: 0px 50px;
 }
 
-/*//////////This is the info part with the four images//////////*/
+/*//////////This is the info part with the four alpaca images//////////*/
 
 .info {
     display: flex;
     flex-direction: column;
+    padding: 0px 50px;
 }
 
 .info-title {
@@ -141,6 +140,31 @@ img {
 .image-container p {
     margin: 0px;
 }
+
+/*//////////This is the part with the not-quote about alpacas//////////*/
+
+.quote {
+    background-color: #E5E7EB;
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.not-quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    padding: 50px 200px 0px;
+}
+
+.just-me {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    padding: 50px 200px 0px;
+}
+
 
 /*//////////THIS IS THE FOOTER//////////*/
 
