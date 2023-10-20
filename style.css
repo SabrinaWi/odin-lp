@@ -1,9 +1,5 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0px;
     text-align: center;
 }
@@ -51,10 +47,9 @@ main {
 
 .main-top {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 0px 100px;
+    padding: 50px 100px;
     background-color: #1F2937;
     flex: auto;
 }
@@ -98,9 +93,7 @@ img {
 
 /*//////////This is the bottom/light part of the content area//////////*/
 
-.main-bottom {
-    background-color: #F9FAF8;
-}
+
 
 /*//////////This is the info part with the four alpaca images//////////*/
 
@@ -205,5 +198,5 @@ footer {
     color: #E5E7EB;
     font-size: 18px;
     background-color: #1F2937;
-    padding: 30px 50px;
+    padding: 20px 100px;
 }
